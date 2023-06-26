@@ -1,0 +1,9 @@
+.root {
+  flex: 1;
+  display: flex;
+  gap: 24px;
+}
+
+.tickets {
+  flex: 1;
+}

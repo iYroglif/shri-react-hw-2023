@@ -1,0 +1,20 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.title {
+  padding: 24px;
+  border-radius: 8px;
+  background: var(--background-primary, #fff);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

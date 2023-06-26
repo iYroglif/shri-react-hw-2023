@@ -1,0 +1,12 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.notFound {
+  flex: 1;
+  padding: 24px;
+  border-radius: 8px;
+  background: var(--background-primary, #fff);
+}

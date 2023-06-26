@@ -1,0 +1,9 @@
+.root {
+  display: flex;
+  padding: 24px 32px;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--gray-1, #333);
+  color: var(--text-accent, #fff);
+  font-size: 20px;
+}

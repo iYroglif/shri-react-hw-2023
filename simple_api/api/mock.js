@@ -65,7 +65,7 @@ const movies = [
     id: "5flr8UOuJz7UuputaZ9iL",
     rating: 8,
     director: "Питер Джексон",
-    reviewIds: ["sFpB1zc2RB1_06S9PMWj4", "sFpB1zc2RB1_06S9PMWj4"],
+    reviewIds: ["sFpB1zc2RB1_06S9PMWj4", "PnxKfx6XS_RqcIxC7w4a7"],
   },
   {
     title: "Оно",

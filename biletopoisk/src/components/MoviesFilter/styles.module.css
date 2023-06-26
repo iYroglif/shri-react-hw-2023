@@ -1,0 +1,39 @@
+.root {
+  width: 408px;
+  padding: 24px;
+  border-radius: 8px;
+  background: var(--background-primary, #fff);
+}
+
+.wrapper {
+  position: fixed;
+  top: 135px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  color: var(--text-primary, #1b1f23);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.filters {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.label {
+  font-size: 14px;
+  line-height: 20px;
+}

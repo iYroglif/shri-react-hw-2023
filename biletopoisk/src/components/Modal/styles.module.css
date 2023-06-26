@@ -1,0 +1,91 @@
+.root {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+  border-radius: 8px;
+  background: var(--background-primary, #fff);
+  cursor: default;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.close {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  background: url(../../../public/close.svg);
+}
+
+.text {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.accept {
+  display: flex;
+  height: 40px;
+  padding: 8px 16px;
+  align-items: center;
+  border: 0;
+  border-radius: 8px;
+  background: var(--orange, #f50);
+  color: var(--button-primary-text-icon, #fff);
+  cursor: pointer;
+}
+
+.accept:hover {
+  background: var(--orange-hover, #e94e00);
+}
+
+.decline {
+  display: flex;
+  height: 40px;
+  padding: 8px 16px;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid var(--orange, #f50);
+  background: var(--background-primary, #fff);
+  color: var(--orange, #f50);
+  cursor: pointer;
+}
+
+.decline:hover {
+  background: var(--background-secondary, #f5f5f5);
+  border: 1px solid var(--orange-hover, #e94e00);
+}

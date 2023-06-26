@@ -1,0 +1,26 @@
+.loader {
+  flex: 1;
+  padding: 24px;
+  border-radius: 8px;
+  background: var(--background-primary, #fff);
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  background-color: black;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  animation: dotFlashing 1s infinite linear alternate;
+}
+
+@keyframes dotFlashing {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
